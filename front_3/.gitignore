@@ -1,0 +1,112 @@
+love:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/output.css">
+
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+
+    <title>Taxiq</title>
+</head>
+<body id="top" class="bg-white text-3xl">
+    <header class="flex">
+        <nav class="bg-transparent fixed w-full px-16 py-6 duration-250 cubic-in flex justify-between">
+            <a href="#" aria-label="Page d'accueil du site">
+                <span class="text-lg lg:text-xl justify-center" aria-hidden="true">
+                    Tax<strong><span class="text-lime-500">IQ</span></strong>
+                </span>
+            </a>
+
+            <ul id="toggle-menu" class="text-gray-800 border-gray-200 flex items-center">
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm  font-semibold w-full hover:text-lime-500">
+                        <div class="flex flex-col items-center">
+                            <i class='bx bxs-home'></i>
+                            <p>accueil</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6"> 
+                    <a href="#" class="text-sm font-semibold w-full hover:text-lime-500">
+                        <div class="flex flex-col items-center">
+                            <i class='bx bxs-dollar-circle'></i>
+                            <p>services</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm font-semibold w-full hover:text-lime-500">
+                        <div class="flex flex-col items-center">
+                            <i class='bx bx-chat'></i>
+                            <p>Informations</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm font-semibold w-full hover:text-lime-500">
+                        <div class="flex flex-col items-center">
+                            <i class='bx bx-help-circle' ></i>
+                            <p>aide</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="py-4 md:py-0 md:mr-6">
+                    <a href="#" class="text-sm font-semibold w-full">
+                        <div class="flex flex-col items-center border-2 border-solid border-lime-500  py-2 px-10 rounded-full ml-8 bg-lime-500 text-black transition duration-300 ease-in-out hover:bg-black hover:text-lime-500">
+                            <i class='bx bx-horizontal-right'></i>
+                            <p>connexion</p>
+                        </div>
+                    </a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <article>
+
+            <!-- Premiere partie pour la presentation -->
+            <section class="h-full w-full" style="background:  url('../img/hero-bg.png'); linear-gradient(rgba(0, 0, 0, 0.5), rgba(24, 255, 24, 0.5));">
+                <div class="px-16 py-6 flex">
+                    <div class="mb-10">
+
+                        <p class="text-black font-Popins text-2xl mb-4">Un calcul a la precis en fonction des pays</p>
+            
+                        <h2 class="font-poppins font-bold text-7xl mb-4">TaxIQ, la solution fiscale repide et a porter de clic</h2>
+            
+                        <p class="text-black font-Popins mb-4">
+                          Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
+                          at purus.
+                        </p>
+            
+                        <button class="border-2 border-solid border-lime-500 py-2 px-10 rounded-full ml-8">En Appendre Plus</button>
+            
+                    </div>
+                    <figure>
+                        <img src="../img/img1.svg" width="694" height="529" loading="lazy" alt="hero-banner"
+                          class="w-100 banner-animation">
+                    </figure>
+                </div>
+            </section>
+        </article>
+    </main>
+    <!-- Javascript -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
